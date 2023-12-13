@@ -97,9 +97,16 @@ height: 100vh;
   font-weight: 600;
 }
 
-.teste{
+.section-secont{
   margin-top: auto;
-  height: 60vh;
+  height: 1150px;
   background-color: #2A6BD4;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
+.content-first{
+  display: flex;
+  grid-row: 1;
+  justify-content: center;
+}
