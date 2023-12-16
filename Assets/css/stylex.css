@@ -1,3 +1,5 @@
+@import url(../css/info.css);
+
 body{
   margin: 0px;
   box-sizing: border-box;
@@ -90,3 +92,124 @@ ul{
     display: none;
   }
 }
+
+
+.main-img img{
+  border-radius: 4px;
+}
+
+
+.main-container {
+  max-width: 1364px;
+  margin: 0 auto;
+  position: relative; /* Define como referência para posicionamento absoluto */
+  text-align: center;
+}
+
+.main-img {
+  padding: 40px;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background: linear-gradient(180deg, rgba(87, 191, 250, 0.66) 6.73%, rgba(180, 206, 221, 0.80) 65.37%, rgba(160, 202, 225, 0.94) 99.99%);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+  color: #151415; 
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+
+.button:hover {
+  background: linear-gradient(180deg, rgba(61, 166, 226, 0.66) 17.73%, rgba(123, 189, 226, 0.8) 65.37%, rgba(110, 165, 194, 0.94) 99.99%);
+  box-shadow: 0px 2px 1px 0px rgba(0, 174, 255, 0.25);
+}
+
+
+@media (max-width: 1100px) {
+  .main-contener{
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+  .main-img {
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+  }
+
+  .main-img img{
+    max-width: 100%;
+  }
+
+  .button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 15px;
+    background: linear-gradient(180deg, rgba(87, 191, 250, 0.66) 6.73%, rgba(180, 206, 221, 0.80) 65.37%, rgba(160, 202, 225, 0.94) 99.99%);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+    color: #151415; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+  }
+  
+  .button:hover {
+    background: linear-gradient(180deg, rgba(61, 166, 226, 0.66) 17.73%, rgba(123, 189, 226, 0.8) 65.37%, rgba(110, 165, 194, 0.94) 99.99%);
+    box-shadow: 0px 2px 1px 0px rgba(0, 174, 255, 0.25);
+  }
+}
+
+@media (max-width: 520px){
+  
+  .main-img {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+  }
+
+  .main-img img{
+    width: 100%;
+  }
+
+  .button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    background: linear-gradient(180deg, rgba(87, 191, 250, 0.66) 6.73%, rgba(180, 206, 221, 0.80) 65.37%, rgba(160, 202, 225, 0.94) 99.99%);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+    color: #151415; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+  }
+  
+  .button:hover {
+    background: linear-gradient(180deg, rgba(61, 166, 226, 0.66) 17.73%, rgba(123, 189, 226, 0.8) 65.37%, rgba(110, 165, 194, 0.94) 99.99%);
+    box-shadow: 0px 2px 1px 0px rgba(0, 174, 255, 0.25);
+  }
+}
+
+
+
+
