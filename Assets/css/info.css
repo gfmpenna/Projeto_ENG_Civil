@@ -1,6 +1,120 @@
 @import url(../css/stylex.css);
 
-.article-first{
-  background: #1D5CC2;
-  height: 1150px;
+.article-first {
+  background: #1d5cc2;
+  height: 900px;
+}
+
+.article-container {
+  max-width: 1364px;
+  margin: 0px auto;
+}
+
+.article-title {
+  text-align: center;
+  padding: 40px;
+}
+
+.article-title h1 {
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0%; /* 0px */
+  letter-spacing: 0.75px;
+}
+
+.article-title p {
+  text-align: center;
+  color: #dadada;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.617%;
+}
+
+.article-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.article-list-itens {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.article-list-itenss {
+  display: flex;
+  justify-content: space-evenly;
+  color: #151415;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0px 20px;
+  margin-bottom: 40px;
+}
+.teste {
+  margin-left: -10px;
+}
+
+.divisor {
+  content: " ";
+  display: block;
+  margin: 20px auto;
+  height: 1px;
+  width: 1200px;
+  background: #dadada;
+  opacity: .7;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.article-info-engineer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+}
+
+.article-info-engineer-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.article-info-engineer-text h1{
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0%; /* 0px */
+  letter-spacing: 0.75px;
+}
+
+.article-info-engineer-text p {
+  text-align:center;
+  color: #dadada;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.617%;
+}
+
+.article-info-engineer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Para centralizar verticalmente se necessário */
 }
